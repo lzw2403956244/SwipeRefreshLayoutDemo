@@ -1,0 +1,15 @@
+<com.lzw.swiperefreshlayoutdemo.view.WaveSwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/WaveSwipeRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:above_wave_color ="@android:color/holo_blue_dark"
+    app:blow_wave_color = "@android:color/holo_blue_bright">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</com.lzw.swiperefreshlayoutdemo.view.WaveSwipeRefreshLayout>
